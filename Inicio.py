@@ -54,7 +54,9 @@ st.markdown('<h1 class="main-header">🌳 Random Forest</h1>', unsafe_allow_html
 st.markdown("""
 <div class="info-box">
 <h3>🤖 ¿Qué es Random Forest?</h3>
-Random Forest es un algoritmo de aprendizaje automático que agrupa múltiples árboles de decisión para realizar predicciones más precisas y robustas. Funciona creando muchos árboles independientes, cada uno entrenado en subconjuntos aleatorios de los datos y características, para luego combinar sus predicciones (por votación o promedio) y obtener un resultado final confiable.
+Random Forest es un algoritmo de aprendizaje automático que agrupa múltiples árboles de decisión para realizar predicciones más precisas y robustas. 
+Funciona creando muchos árboles independientes, cada uno entrenado en subconjuntos aleatorios de los datos y características, 
+para luego combinar sus predicciones (por votación o promedio) y obtener un resultado final confiable.
 </div>
 """, unsafe_allow_html=True)
 
@@ -85,6 +87,21 @@ with col2:
     - ✅ Visualizaciones de resultados
     - ✅ Métricas de evaluación completas
     """)
+
+# Nuevos parámetros solicitados
+st.markdown("## 📌 Parámetros del Proyecto")
+st.markdown("""
+- ✏️ **Modificar** el archivo para responder las **7 preguntas planteadas**.  
+- ⚙️ **Ejecutar el proyecto y entrenar el modelo** con el objetivo de alcanzar la mayor precisión.  
+- 🔎 **Revisar y optimizar** el rendimiento del modelo.  
+- 📄 **Elaborar un documento** que incluya:  
+  - Capturas de pantalla completas del proceso de entrenamiento.  
+  - Métricas obtenidas.  
+  - Resultados finales.  
+  - Capturas de pantalla de la evaluación del modelo.  
+  - Interpretación de resultados.  
+- 🌐 **Publicar el proyecto en Streamlit Share** para su visualización en la web.  
+""")
 
 # Preguntas de estudio
 st.markdown("## 📚 Preguntas de Estudio")
